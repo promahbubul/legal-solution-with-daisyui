@@ -52,8 +52,8 @@
     <header class="w-11/12 m-auto">
         <!-- Nav Section -->
         <nav>
-            <div class="navbar poppins bg-base-100">
-                <div class="navbar-start">
+            <div class="navbar poppins flex-col lg:flex-row bg-base-100">
+                <div class="navbar-start w-full lg:w-1/2 mb-5 lg:mb-auto">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -130,7 +130,7 @@
             <!-- Practice Bottomm Area -->
             <div class="mt-10 mb-32">
                 <!-- Card Group 1 -->
-                <div class="flex flex-row  border-b border-[#E7E7E7] ">
+                <div class="flex flex-col lg:flex-row  border-b border-[#E7E7E7] ">
                     <!-- Group_1 / Card 1 -->
                     <div class="card hover:bg-gradient-to-t from-[#E7E7E7]  to-[#F3F3f3]  w-full rounded-none ">
                         <figure class="px-10 pt-10">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <!-- Card Group 2 -->
-                <div class="flex flex-row">
+                <div class="flex flex-col lg:flex-row">
                     <!-- Group_2 / Card 1 -->
                     <div class="card w-full hover:bg-gradient-to-t from-[#E7E7E7]  to-[#F3F3f3] rounded-none   ">
                         <figure class="px-10 pt-10">
@@ -254,9 +254,9 @@
                 </p>
             </div>
             <!-- Client Section Bottom -->
-            <div class="carousel rounded-lg  bg-[url('/images/banner.png')] bg-cover w-full">
+            <div class="carousel rounded-lg  bg-auto bg-right-bottom bg-[url('/images/banner.png')] bg-cover w-full">
                 <div id="slide1" class=" bg-[#111111] rounded-lg opacity-80 carousel-item relative w-full  ">
-                    <div class="flex flex-col  p-28 text-center justify-center items-center gap-5">
+                    <div class="flex flex-col py-10 px-14 lg:p-28 text-center justify-center items-center gap-5">
                         <img class=" w-16" src="./images/avator.png" alt="">
                         <h4 class="text-2xl text-white font-extrabold eb-garamond ">Awlad Hossain</h4>
                         <p class="max-w-[900] text-poppins m-auto text-[#F3F3F3] text-base font-normal">Contrary to
@@ -272,7 +272,7 @@
                     </div>
                 </div>
                 <div id="slide2" class=" bg-[#111111] rounded-lg opacity-80  carousel-item relative w-full">
-                    <div class="flex flex-col  p-28 text-center justify-center items-center gap-5">
+                    <div class="flex flex-col  px-14 py-10 lg:p-28 text-center justify-center items-center gap-5">
                         <img class=" w-16" src="./images/avator.png" alt="">
                         <h4 class="text-2xl text-white font-extrabold eb-garamond ">Awlad Hossain</h4>
                         <p class="max-w-[900] text-poppins m-auto text-[#F3F3F3] text-base font-normal">Contrary to
@@ -288,7 +288,7 @@
                     </div>
                 </div>
                 <div id="slide3" class=" bg-[#111111] rounded-lg opacity-80  carousel-item relative w-full">
-                    <div class="flex flex-col  p-28 text-center justify-center items-center gap-5">
+                    <div class="flex flex-col px-14 py-10 lg:p-28 text-center justify-center items-center gap-5">
                         <img class=" w-16" src="./images/avator.png" alt="">
                         <h4 class="text-2xl text-white font-extrabold eb-garamond ">Awlad Hossain</h4>
                         <p class="max-w-[900] text-poppins m-auto text-[#F3F3F3] text-base font-normal">Contrary to
@@ -322,7 +322,7 @@
             </div>
 
             <!-- FAQ Section Bottom -->
-            <div class="flex flex-row justify-between items-center gap-7">
+            <div class="flex flex-col-reverse lg:flex-row justify-between items-center gap-7">
                 <!-- FAQ Bottom Left -->
                 <div class="faq-bottomLeft w-full space-y-7">
                     <div class="collapse collapse-plus rounded-lg bg-base-200">
@@ -388,18 +388,19 @@
                 </p>
             </div>
             <!-- Contact Section Bottom -->
-            <div class="contact-bottom flex flex-row gap-7 justify-between">
+            <div class="contact-bottom flex flex-col lg:flex-row gap-7 justify-between">
                 <div class="contact-bottomLeft">
-                    <div class="flex flex-row border-b w-full border-[#CFCFCF]">
+                    <div class="flex flex-col lg:flex-row lg:border-b w-full lg:border-[#CFCFCF]">
                         <div
-                            class="bg-[#F3F3F3] w-full border-r border-[#CFCFCF] text-center py-10 px-8 flex flex-col items-center gap-4">
+                            class="bg-[#F3F3F3] w-full border-b lg:border-r border-[#CFCFCF] text-center py-10 px-8 flex flex-col items-center gap-4">
                             <img src="./images/location.png
                             " alt="">
                             <h5 class="text-2xl font-extrabold eb-garamond text-heading-color">Address</h5>
                             <p class="font-normal min-w-[160px] text-base text-gray-1 poppins">A108 Adam Street,<br>
                                 New York, NY 535022</p>
                         </div>
-                        <div class="bg-[#F3F3F3] w-full text-center py-10 px-8 flex flex-col items-center gap-4">
+                        <div
+                            class="bg-[#F3F3F3] w-full text-center border-b  border-[#CFCFCF] py-10 px-8 flex flex-col items-center gap-4">
                             <img src="./images/call.png" alt="">
                             <h5 class="text-2xl font-extrabold eb-garamond text-heading-color">Call Us</h5>
                             <p class="font-normal min-w-[160px] text-base text-gray-1 poppins">+88 01750 00 00 00<br>
@@ -407,7 +408,7 @@
                                 +88 01750 00 00 00</p>
                         </div>
                     </div>
-                    <div class="flex w-full flex-row border-[#CFCFCF]">
+                    <div class="flex w-full flex-col lg:flex-row  lg:border-[#CFCFCF]">
                         <div
                             class="bg-[#F3F3F3] text-center w-full border-r border-[#CFCFCF] py-10 px-8 flex flex-col items-center gap-4">
                             <img src="./images/email.png " alt="">
@@ -480,7 +481,8 @@
                 <div class="form-control  w-full">
                     <div class="relative">
                         <input type="text" placeholder="Email Address" class="input  input-bordered w-full pr-16" />
-                        <img class="p-3 w-12 absolute  top-0 right-0  rounded-lg bg-btn-color" src="./images/send.png" alt="">
+                        <img class="p-3 w-12 absolute  top-0 right-0  rounded-lg bg-btn-color" src="./images/send.png"
+                            alt="">
                     </div>
                 </div>
             </div>
